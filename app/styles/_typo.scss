@@ -1,0 +1,61 @@
+// @font-face {
+//     font-family: atrapaloico;
+//     src: url(/fonts/atrapaloico.eot);
+//     src: url(/fonts/atrapaloico.eot#iefix) format('embedded-opentype'), url(/fonts/atrapaloico.woff2) format('woff2'), url(/fonts/atrapaloico.woff) format('woff'), url(/fonts/atrapaloico.ttf) format('truetype'), url(/fonts/atrapaloico.svg#atrapaloico) format('svg');
+//     font-weight: 400;
+//     font-style: normal
+// }
+
+@font-face {
+    font-family: atrapaloico;
+    src: url(/fonts/atrapaloweb-bold.eot);
+    src: url(/fonts/atrapaloweb-bold.eot?iefix) format('eot'), url(/fonts/atrapaloweb-bold.woff2) format('woff2'), url(/fonts/atrapaloweb-bold.woff) format('woff'), url(/fonts/atrapaloweb-bold.ttf) format('truetype'), url(/fonts/atrapaloweb-bold.svg#webfontxqeiJ2kp) format('svg');
+    font-weight: 700;
+    font-style: normal
+}
+
+body {
+    font-family: atrapaloico;
+}
+
+a {
+    color: #303034;
+
+    &:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #e32625;
+    }
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 1.2;
+
+    @media screen and (max-width: 1138px){
+        font-size: 22px;
+    }
+
+    @media screen and (max-width: 767px){
+        font-size: 16px;
+    }
+}
+
+h3 {
+    font-size: 46px;
+    margin: 0;
+
+    @media screen and (max-width: 1138px){
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 767px){
+        font-size: 22px;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
