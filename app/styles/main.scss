@@ -626,3 +626,43 @@ address {
 .icon-houdinis:before {
     content: "\e811"
 }
+
+.flag {
+    background: url(../images/generic-sprite.png) no-repeat 0 0;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 7px;
+}
+
+.fl24 {
+    background-position: -270px 0;
+}
+
+.fl12 {
+    background-position: -60px 0;
+}
+
+.fl19 {
+    background-position: -120px 0;
+}
+
+.fl22 {
+    background-position: -210px 0;
+}
+
+.fl23 {
+    background-position: -240px 0;
+}
+
+.fl25 {
+    background-position: -300px 0;
+}
+
+.fl21 {
+    background-position: -180px 0;
+}
+
+.fl20 {
+    background-position: -150px 0;
+}
