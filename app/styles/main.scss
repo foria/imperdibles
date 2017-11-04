@@ -230,9 +230,15 @@
       width: 78px;
       height: 24px;
       background: url(../images/logo-link.png) 0 0 no-repeat;
+      background-size: contain;
       position: absolute;
       bottom: 35px;
       right: 25px;
+
+      @media screen and (max-width: 767px){
+        width: 55px;
+        height: 17px;
+      }
     }
 
     img {
@@ -244,6 +250,8 @@
     position: absolute;
     bottom: 15px;
     left: 25px;
+    width: 70%;
+    text-align: left;
     color: white;
     text-shadow: 1px 1px 1px #555;
   }
